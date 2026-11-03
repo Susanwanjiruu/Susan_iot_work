@@ -1,6 +1,6 @@
 # ESP32 Wi-Fi and Web Control Prototype
 
-An ESP32 Arduino/PlatformIO project that connects to a Wi-Fi network and serves a small web control panel from the board.
+An ESP32 IoT prototype featuring Wi-Fi connectivity and a lightweight web-based control interface.
 
 The repository also contains a separate HTML/CSS interface mockup.
 
