@@ -27,9 +27,16 @@ The repository also contains a separate HTML/CSS interface mockup.
 
 ## Firmware setup
 
-The firmware expects Wi-Fi credentials to be defined in `Project_1 iot/src/secrets.h`, using the variable names `ssid` and `password`.
+The firmware expects Wi-Fi credentials in `Project_1 iot/src/secrets.h`, using the variable names `ssid` and `password`. This file is ignored by Git and is not included in the repository.
 
-Keep real network credentials private. Do not commit a populated `secrets.h` file. Use a local, untracked copy and provide a safe example template when sharing the project. If valid Wi-Fi credentials have already been committed publicly, change that Wi-Fi password.
+Create your local credentials file from the committed template:
+
+```bash
+cd "Project_1 iot/src"
+cp secrets.example.h secrets.h
+```
+
+Edit the local `secrets.h` with your own Wi-Fi network name and password. Never commit that file. If credentials were previously committed publicly, change the Wi-Fi password because deleting the file from the latest version does not erase earlier Git history.
 
 From the firmware project directory:
 
