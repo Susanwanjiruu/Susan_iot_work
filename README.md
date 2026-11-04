@@ -12,7 +12,7 @@ The repository also contains a separate HTML/CSS interface mockup.
 │   ├── platformio.ini
 │   └── src/
 │       ├── main.cpp
-│       └── secrets.h
+│       └── secrets.example.h
 └── Project_1 iot/MY_PROJECT/
     ├── index.html
     └── index.css
